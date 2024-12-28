@@ -1,226 +1,562 @@
-<style>
-    img {
-        max-width: 100%;
-        object-fit: cover;
-    }
-</style>
-<!--footer-->
-<button id="share" class="share">
-    <svg
-        class="w-6 h-6"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-    >
-        <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
-        ></path>
-    </svg>
-</button>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3 col-sm-3">
-            <div class="footer-widget">
-                <h2>Quick Links</h2>
-                <ul>
-                    <li><a href="/frontend/ ">Web designing tutuorial</a></li>
-                    <li><a href="/backend/backend.html">Backend tutuorial</a></li>
-                    <li><a href="/database/">Database tutorial</a></li>
-                    <li><a href="/english/english.html">Learn english from hindi</a></li>
-                    <li><a href="/seo/seo.html">Advanced SEO tutorial</a></li>
-                    <li><a href="https://physicsclass.co">physics class</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-3">
-            <!--footer-widget-->
-            <div class="footer-widget">
-                <h2>Our Expertise</h2>
-                <ul>
-                    <li><a href="/" target="_BLANK">Ashishtech Solution</a></li>
-                    <li>
-                        <a
-                            href="https://www.youtube.com/channel/UCSj5DTDPkqGJ6izZs2CvfQA?view_as=subscriber"
-                            >Youtube Channel</a
-                        >
-                    </li>
-                    <li>
-                        <a href="https://ashishyadavcs.github.io/developer/#!/portfolio"
-                            >Work Experience</a
-                        >
-                    </li>
-                    <li>
-                        <a href="https://ashishyadavcs.github.io/developer/#!/portfolio"
-                            >WebTools</a
-                        >
-                    </li>
-                    <li><a rel="nofollow,noindex" href="tel:+7068513356">Contact Us</a></li>
-                </ul>
-            </div>
-            <!--footer widget ends-->
-        </div>
-        <div class="col-md-3 col-sm-3">
-            <!--footer-widget-->
-            <div class="footer-widget">
-                <h2>Our Services</h2>
-                <ul>
-                    <li>
-                        <a
-                            href="https://ashishyadavcs.github.io/developer/#!/website-designer-in-delhi"
-                            >Web Designer in Delhi NCR</a
-                        >
-                    </li>
-                    <li>
-                        <a href="https://ashishyadavcs.github.io/developer/#!/services"
-                            >Ecommerce Website Designer in Delhi</a
-                        >
-                    </li>
-                    <li>
-                        <a href="https://ashishyadavcs.github.io/developer/#!/services"
-                            >PSD to HTML Conversion</a
-                        >
-                    </li>
-                    <li>
-                        <a href="https://ashishyadavcs.github.io/developer/#!/services"
-                            >PSD to Bootstrap Conversion</a
-                        >
-                    </li>
-                    <li><a href="https://ashishyadavcs.github.io/developer/#!/services">SEO</a></li>
-                </ul>
-            </div>
-            <!--footer widget ends-->
-        </div>
-        <div class="col-md-3 col-sm-3">
-            <!--footer-widget-->
-            <div class="footer-widget">
-                <h2>Recent Stories</h2>
-                <ul>
-                    <li>
-                        <a href="https://juwa-777-apk-download-for-android.frontendzone.com/"
-                            >juwa 777 apk</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            rel="nofollow,noindex"
-                            href="https://ashishyadavcs.github.io/developer/#!/hireme"
-                            >Hire Me For your website Project</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            rel="nofollow,noindex"
-                            href="https://ashishyadavcs.github.io/developer/#!/aboutme"
-                            >About Me</a
-                        >
-                    </li>
-                    <li><a href="/webhelp.html">web help </a></li>
+<!--Banner-->
+![ashishyadavcs Banner Image](./banner.png)
 
-                    <li><a href="/whatsnew/">what's new </a></li>
-                    <li><a href="https://www.jsonviewer.guru/">json viewer</a></li>
-                    <li><a href="/mobiles/" title="mobiles">mobiles </a></li>
-                    <li><a href="/lifestyle/">Lifestyle</a></li>
-                    <li>
-                        <a href="/fancytextgenerator/" title="fancy text generator"
-                            >fancy text generator</a
-                        >
-                    </li>
-                    <li>
-                        <a href="products/soul-manifestation/" title="soul-manifestation"
-                            >soul-manifestation</a
-                        >
-                    </li>
-                    <li>
-                        <a href="https://emoji1000.blogspot.com/" title="emoji">get all Emoji's</a>
-                    </li>
-                    <li>
-                        <a href="https://rgb-to-hex-converter.blogspot.com/"
-                            >rgb-to-hex-converter
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--footer widget ends-->
-        </div>
-        <div class="col-md-3 col-sm-3">
-            <!--footer-widget-->
-            <div class="footer-widget">
-                <h2>Products</h2>
-                <ul>
-                    <li><a href="/Okinawa-Flat-Belly-Tonic/">Okinawa-Flat-Belly-Tonic</a></li>
-                    <li>
-                        <a href="/how-to-manifest-health-and-wealth-within-24hours/"
-                            >how-to-manifest-health-and-wealth-within-24hours</a
-                        >
-                    </li>
-                    <li><a href="/zulily/">zulily</a></li>
-                </ul>
-            </div>
-            <!--footer widget ends-->
-        </div>
-    </div>
-</div>
-<div class="footer-bottom z-depth-2">
-    <a href="">copyright &copy; 2020 ashishtech | all right reserved</a><br />
-    <a href="/page/aboutus.html">about us </a> | <a href="/page/contactus.html">contact us</a> |
-    <a href="/page/privacypolicy.html">privacy policy</a>
+<!--Night Owl image-->
+<div>
+  <img align="right" width="40%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
 </div>
 
-<!--footer end-->
-<!--bottom nav-->
+<!--Header Name-->
+# <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ɪ'ᴍ Ashish! 
+*Bold technology (Software Engineer)*
+<br /> 
 
-<a id="bottom-menu" class="waves-effect waves-light btn modal-trigger" href="#webdesigntutorial"
-    >content</a
->
+<!--Start Intro-->               
+<p align="left">I am a full stack developer Enthusiast with a huge love for Javascript, React.js, Node.js, Next.js, REST API. </p>
 
-<!-- Modal Structure -->
-<div id="webdesigntutorial" style="height: 100vh" class="modal bottom-sheet z-depth-4">
-    <div class="modal-content">
-        <div ng-include="'./sidenav.html'"></div>
-    </div>
+- ✨ Student of life :)
+- 🌱 I’m currently learning many things, I believe that everyday is a learning opportunity.
+
+- ✍ I write technical blogs, You can visit my blog site at [DEV](https://frontendzone.com/blog).
+- ❤ Contributing to Open Source.
+- 💻 Visit my [Portfolio](https://frontendzone.com/ashish-yadav) for more details about me.
+<!--End Intro-->
+
+<!--Profile Count Badge-->
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=ashishyadavcs&label=Profile%20views&color=770677&style=for-the-badge&logo=star" alt="ashishyadavcs" style="padding-right:20px;" />
+</p>
+
+---
+
+
+<!--Languages and Tools Section-->       
+<h2 align="center">Tᴇᴄʜ sᴛᴀᴄᴋ & Lᴀᴛᴇsᴛ ʙʟᴏɢs</h2> 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./Skills_Animation_Dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="./Skills_Animation_White.gif">
+  <img align="left" alt="GIF description" src="./Skills_Animation_White.gif">
+</picture>
+<br />
+
+<h3 align="left">Current Learning</h3>
+<ul align="left">
+  <li>Deepening my knowledge in full stack development.</li>
+  <li>Exploring advanced React.js patterns and state management techniques.</li>
+  <li>Improving my skills in node.js backend development.</li>
+</ul>
+  
+<!-- <h3 align="left">Latest Blog Posts</h3>
+<ul align="left">
+  <li><a href="https://dev.to/dev_kiran/19-open-source-tools-you-should-bookmark-now-5hc4">🧙‍♂️19 Open-Source Tools You Should Bookmark Now🔖</a></li>
+  <li><a href="https://dev.to/dev_kiran/automq-a-cloud-native-replacement-of-apache-kafka-59mg">AutoMQ: A Cloud-Native Replacement of Apache Kafka</a></li>
+  <li><a href="https://dev.to/dev_kiran/boost-your-dev-workflow-with-these-top-tools-4k66">🚀Boost Your Dev Workflow with These Top Tools</a></li>
+</ul> -->
+<br />
+<br />
+<br />
+<br />
+
+
+<!--Trophies Section-->   
+<h2 align="center">🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs 🏆</h2>
+<p align="center">
+  <a href="https://github.com/ashishyadavcs">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=ashishyadavcs&no-bg=true&row=2&column=6&margin-w=20&margin-h=20&theme=monokai">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=ashishyadavcs&no-bg=true&row=2&column=6&margin-w=20&margin-h=20">
+      <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=ashishyadavcs&no-bg=true&no-frame=true&row=2&column=6&margin-w=20&margin-h=20">
+    </picture>
+  </a>
+</p>
+<br />
+
+<!--Github stats Table--> 
+<h2 align="center">📊 Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
+
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/ashishyadavcs">
+          <img align="center" src="https://github-readme-stats.vercel.app/api?username=ashishyadavcs&count_private=true&show_icons=true&theme=nightowl&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff&rank_icon=github&hide=prs,issues,contribs&show=reviews,prs_merged,prs_merged_percentage" alt="GitHub Stats" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/ashishyadavcs">
+          <img align="center" src="https://streak-stats.demolab.com?user=ashishyadavcs&theme=nightowl&background=0,000000,441350&fire=ffeb95&ring=ffeb95&sideNums=ffffff&sideLabels=ffffff&dates=c56a90&currStreakNum=ffffff" alt="Streak Stats" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center"><strong>Lᴀᴛᴇsᴛ Pʀᴏᴊᴇᴄᴛ</strong></h3>
+      <p align="center">
+        <a href="https://github.com/ashishyadavcs/Awesome-Dev-Portfolios">
+          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=ashishyadavcs&repo=Awesome-Dev-Portfolios&theme=nightowl&show_owner=true&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff" alt="Awesome-Dev-Portfolios" />
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><strong>Tᴏᴘ Cᴏɴᴛʀɪʙᴜᴛɪᴏɴs</strong></h3>
+      <p align="center">
+        <a href="https://github.com/ashishyadavcs">
+          <img align="center" src="https://github-contributor-stats.vercel.app/api?username=ashishyadavcs&limit=2&theme=nightowl&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,441350&title_color=c56a90&text_color=ffffff" alt="Top Repo" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+<br />
+
+<!--Contribution Graph-->
+<h2 align="center">📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</h2>
+<div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashishyadavcs&bg_color=220a28&&color=ffffff&line=c56a90&point=ffeb95&area=false&hide_border=false" border-radius="15">
 </div>
-<script>
-    $(document).ready(function () {
-        $(".modal").modal();
-        $("footer .modal-content ul li a").prepend(
-            '<span style="margin-right:10px" class="fa fa-hand-o-right"></span>'
-        );
-    });
-    let themecolor = document.createElement("meta");
-    themecolor.name = "theme-color";
-    themecolor.content = "#000";
-    document.head.append(themecolor);
 
-    document.querySelector(".share").addEventListener("click", () => {
-        var urll = window.location.href;
-        var whatsappshare;
-        if (window.innerWidth > 800) {
-            whatsappshare = `https://web.whatsapp.com/send?text=${urll}`;
-        } else {
-            whatsappshare = `https://api.whatsapp.com/send?text=${urll}`;
-        }
-        var linktext = document.head.title;
-        console.log(linktext);
+---
 
-        if (navigator.share) {
-            navigator
-                .share({
-                    title: "Ashishtech Solutions",
-                    text: linktext,
-                    url: urll,
-                })
-                .then(() => console.log("Successful share"))
-                .catch(error => console.log("Error sharing", error));
-        } else {
-            var left = screen.width / 2 - 800 / 2;
-            var top = screen.height / 2 - 600 / 2;
+<!--Dynamic Quote card updates everyday at 12 PM--> 
+<h2 align="center">🌟 Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ 🌟</h2>
 
-            window.open(whatsappshare, "popup", `width=800,height=600,top=${top},left=${left}`);
-            return false;
-        }
-    });
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--STARTS_HERE_QUOTE_CARD-->
+<p align="center">
+    <img src="https://readme-daily-quotes.vercel.app/api?author=Kahlil%20Gibran&quote=Generosity%20is%20giving%20more%20than%20you%20can%2C%20and%20pride%20is%20taking%20less%20than%20you%20need.&theme=dark&bg_color=220a28&author_color=ffeb95&accent_color=c56a90">
+</p>
+<!--ENDS_HERE_QUOTE_CARD-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Contact Section--> 
+
+<h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝 </h2>
+<div align="center">
+  
+<a href="mailto:ashishyadav.works@gmail.com" target="_blank">
+<img src="./gmail.png" width=50 height=50 alt="ashishyadav.works@gmail.com" style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://x.com/ashishyadav_cs" target="_blank">
+<img src="./twitter.png" width=50 height=50 alt="kiran__a__n" style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://www.instagram.com/ashishyadav.dev" target="_blank">
+<img src="./instagram.png" width=50 height=50 alt="kiran_a_n" style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://www.githubcom/ashishyadavcs" target="_blank">
+<img src="./github.png" width=50 height=50 alt="ashishyadavcs" style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://www.linkedin.com/in/ashishyadavcs/" target="_blank">
+<img src="./linkedin.png" width=50 height=50 alt="linkedin" style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://dev.to/ashishyadavcs" target="_blank">
+<img src="./dev_to.png" width=50 height=50 alt="dev_kiran" style="margin-bottom: 5px;" />
+</a>
+</div>
+<br/>
+
+<!--Buy me a coffee-->
+<!-- <div align="center">
+<a href="https://www.buymeacoffee.com/ashishyadavcs" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 200px !important;" ></a>
+</div> -->
+
+
+<!--Footer--> 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+</p>
+
